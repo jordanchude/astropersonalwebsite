@@ -1,17 +1,20 @@
 ---
-title: Duvet Genius
+title: Personal Portfolio
 publishDate: 2020-03-04 00:00:00
 img: /assets/personal-portfolio.png
-img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
+img_alt: A screenshot of an early personal portfolio website built with HTML, CSS, and JavaScript.
 description: |
-  We developed a virtual showcase for the softest bedding imaginable.
+  The foundation for my career as an engineer.
 tags:
   - Design
   - Dev
-  - Branding
+  - Personal Branding
 ---
 
-In this project, I built a personal portfolio website using HTML, CSS and JavaScript. Although it doesn't represent my fully encapsulate my current skillset, it was one of the first solo projects I built. the You can check it out here: https://jordanchude.netlify.app/
+**Website:** https://jordanchude.netlify.app/ <br>
+**Code**: https://github.com/jordanchude/project-1-portfolio
+
+In this project, I built a personal portfolio website using HTML, CSS and JavaScript. Although it doesn't represent my fully encapsulate my current skillset, it was one of the first solo projects I built.
 
 The portfolio website has four sections: home, about me, projects and contact. In the home section, I have a brief introduction of myself and a button jumps to a contact section. In the about me section, I have more details about my skillsets. In the projects section, I have a grid of cards that display some of the projects I have worked on or contributed to. Each card has an image, a title, a description and a link to the live demo or source code. In the contact section, I have a form that allows visitors to send me messages directly from the website. I also have links to my social media profiles and email address.
 
