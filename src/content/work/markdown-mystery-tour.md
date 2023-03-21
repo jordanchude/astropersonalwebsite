@@ -1,35 +1,29 @@
 ---
-title: Markdown Mystery Tour
+title: Anythink
 publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img: /assets/anythink.png
+img_alt: A home page with a search box and "Anythink" company logo above it
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Anythink, a fictional product and organization created by Wilco, a web development practice platform, where I implemented a product search feature and effectively managed code repositories to enhance development skills in real-world development scenarios.
 tags:
   - Design
   - Dev
-  - User Testing
 ---
 
-## Level-two heading
+Anythink Market is built with React, Node.js, MongoDB, and Elasticsearch. It has features like user authentication, product listing, image uploading, and search functionality. All contributions were organized in the forms of ['quests'](https://www.trywilco.com/catalog) from [Wilco](https://www.trywilco.com/). 
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+Here is a rundown of the quests I've done and their contributions to the Anythink codebase:
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
-
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
-
-### Level-three heading
-
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
-
-### Level-three heading
-
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
-
-#### Level-four heading
-
-- We noted this
-- And also this other point
+- **Gitting Started**: I set up the initial repository on GitHub and configured the .gitignore file. I also created a README.md file with instructions on how to run the project locally and deploy it to Heroku. 
+  - **Pull Request**: https://github.com/ObelusFamily/Anythink-Market-9veys/pull/1/commits
+- **Setup**: I installed all the dependencies for both the front-end and back-end using npm. I also created a .env file to store environment variables like database URL, API keys, and secret keys. 
+  - **Pull Request**: https://github.com/ObelusFamily/Anythink-Market-9veys/pull/2/commits
+- **Dataseeding**: I wrote a script to seed the database with dummy data using Faker.js. I created models for users, products, orders, and reviews using Mongoose schemas and validations. I also added indexes to improve query performance. 
+  - **Pull Request**: https://github.com/ObelusFamily/Anythink-Market-9veys/pull/3/commits
+- **Search Party**: I implemented a dynamic filtering system for the products in the Anythink Market project using React hooks and regex. I also fixed some bugs and improved the performance of the search algorithm. The regex matches partial or fuzzy titles and limits the query results to 1. The React hooks manage the state of the search value and the suggestions array. Depending on whether there are any suggestions or not, different content is displayed.
+  - **Pull Requests**:
+    - https://github.com/ObelusFamily/Anythink-Market-9veys/pull/4/commits
+    - https://github.com/ObelusFamily/Anythink-Market-9veys/pull/5/commits
+    - https://github.com/ObelusFamily/Anythink-Market-9veys/pull/6/commits
+- **Let It Sink (current)**: I implemented a new verification program for top sellers based on a predefined list by adding a boolean field to the User model and API. 
+  - **Pull Request**: https://github.com/ObelusFamily/Anythink-Market-9veys/pull/7
