@@ -1,13 +1,28 @@
 ---
-import { Nav } from 'astro-bootstrap';
-import type { NavItemType } from 'astro-bootstrap'; 
-
-const navs: NavItemType[] = [
-  { href: '#', text: 'Active' },
-  { href: '#', text: 'Link' },
-  { href: '#', text: 'Link' },
-  { href: '#', text: 'Disabled', disabled: true },
-];
+import { Tabs } from 'astro-tabs';
 ---
 
-<Nav tabs>{navs.map((nav) => <Nav.Item {...nav} />)}</Nav>
+<Tabs>
+  <Fragment slot="tab-1">Tab 1</Fragment>
+  <Fragment slot="tab-2">Tab 2</Fragment>
+  <Fragment slot="tab-3">Tab 3</Fragment>
+
+  <Fragment slot="panel-1">
+    <h2>Panel 1</h2>
+    <p>Hello world</p>
+  </Fragment>
+
+  <!-- v———————————————————————————————————— This is the tallest panel -->
+  <Fragment slot="panel-2-tallest">
+    <h2>Panel 2</h2>
+    <img
+      height="400"
+      src="https://res.cloudinary.com/dzfylx93l/image/upload/v1664340439/astro-takeoff-1_ecdfxf.gif"
+    />
+  </Fragment>
+
+  <Fragment slot="panel-3">
+    <h2>Panel 3</h2>
+    <p>Heya</p>
+  </Fragment>
+</Tabs>
