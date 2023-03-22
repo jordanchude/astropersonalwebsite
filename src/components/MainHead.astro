@@ -34,13 +34,13 @@ const {
 		}
 		return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 	};
-	const isDark = getThemePreference() === 'dark';
+	const isDark = getThemePreference() === 'light';
 	document.documentElement.classList[isDark ? 'add' : 'remove']('theme-dark');
 
 	if (typeof localStorage !== 'undefined') {
 		// Watch the document element and persist user preference when it changes.
 		const observer = new MutationObserver(() => {
-			const isDark = document.documentElement.classList.contains('theme-dark');
+			const isDark = document.documentElement.classList.contains('theme-light');
 			localStorage.setItem('theme', 'light');
 		});
 		observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
