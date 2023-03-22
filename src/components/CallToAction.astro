@@ -1,12 +1,13 @@
 ---
 interface Props {
 	href: string;
+	specialStyle?: boolean;
 }
 
-const { href } = Astro.props;
+const { href, specialStyle } = Astro.props;
 ---
 
-<a href={href}><slot /></a>
+<a href={href} class={`your-button${specialStyle ? ' special-button' : ''}`}><slot /></a>
 
 <style>
 	a {
@@ -25,6 +26,12 @@ const { href } = Astro.props;
 		box-shadow: var(--shadow-md);
 		white-space: nowrap;
 	}
+
+	.special-button {
+		position: static; /* Reset the position property */
+		display: inline-block; /* Reset the display property */
+	}
+
 
 	@media (min-width: 20em) {
 		a {

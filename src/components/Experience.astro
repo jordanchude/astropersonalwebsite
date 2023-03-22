@@ -1,5 +1,7 @@
 ---
 import { Tabs } from 'astro-tabs';
+import CallToAction from './CallToAction.astro';
+import Icon from './Icon.astro';
 ---
 <h3>Where I've Worked</h3>
 <Tabs class="tab">
@@ -43,3 +45,10 @@ import { Tabs } from 'astro-tabs';
     </ul>
   </Fragment>
 </Tabs>
+
+<div class="cta">
+  <CallToAction href="/work/" specialStyle={true}>
+    View Resumé
+    <Icon icon="arrow-right" size="1.2em" />
+  </CallToAction>
+</div>
