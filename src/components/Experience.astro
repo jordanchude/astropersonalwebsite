@@ -47,6 +47,7 @@ import Icon from './Icon.astro';
   </Fragment>
 </Tabs>
 
+
 <div class="cta">
   <CallToAction href="https://www.dropbox.com/s/ik0z4bo7xbo5wgt/JORDAN%20CHUDE%20WILLIAMS.pdf?dl=0" specialStyle={true}>
     View Resumé
@@ -61,7 +62,29 @@ import Icon from './Icon.astro';
     font-style: italic;
   }
 
+  :global(.tab) {
+    color: white;
+    padding: 1rem;
+    background-color: teal;
+    border: 1px solid cyan;
+  }
+
+  :global(.tab:hover) {
+    color: black;
+    background-color: cyan;
+  }
+
+  :global(.tab-selector:checked ~ .tab) {
+    color: black;
+    /* background: turquoise; */
+  }
+
+  .panel {
+    padding: 1rem;
+    background-color: lightcyan;
+    border: 3px solid darkcyan;
+  }
+
   
 </style>
 
-<script src="/node_modules/@material-tailwind/html/scripts/tabs.js"></script>
