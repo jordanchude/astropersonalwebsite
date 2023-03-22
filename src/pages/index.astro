@@ -27,7 +27,7 @@ const projects = (await getCollection('work'))
 ---
 
 <BaseLayout>
-	<div class="stack gap-20 lg:gap-48">
+	<div class="stack gap-5 lg:gap-48">
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
@@ -51,9 +51,12 @@ const projects = (await getCollection('work'))
 			</header>
 
 			<Skills />
-			<Experience />
 			
 		</div>
+
+		<main class="wrapper stack gap-0 lg:gap-48">
+			<Experience />
+		</main>
 		
 
 		<main class="wrapper stack gap-20 lg:gap-48">
