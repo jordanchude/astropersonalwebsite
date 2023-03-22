@@ -3,14 +3,14 @@ import { Tabs } from 'astro-tabs';
 import CallToAction from './CallToAction.astro';
 import Icon from './Icon.astro';
 ---
-<h1>Where I've Worked</h1>
+<h2 class="experience-title">Where I've Worked</h2>
 <Tabs class="tab">
   <Fragment slot="tab-1">Twitch</Fragment>
   <Fragment slot="tab-2">General Assembly</Fragment>
   <Fragment slot="tab-3">EQT</Fragment>
 
-  <Fragment slot="panel-1">
-    <h2>Sr. Manager, Creator Acquisition & Development / Artist Account | Twitch | New York, NY | November 2020 - Present</h2>
+  <Fragment slot="panel-1-tallest">
+    <h2 class="experience-role">Sr. Manager, Creator Acquisition & Development / Artist Account | Twitch | New York, NY | November 2020 - Present</h2>
     <ul> 
       <li>Lead Hip-Hop strategy and execution, Twitch's most popular genre by listenership, resulting in a renewed focus on the genre.</li>
       <li>Manage professional relationships with priority partners representing over $1 million of revenue annually by leveraging daily data metrics, weekly calls, and monthly performance reviews.</li>
@@ -23,8 +23,8 @@ import Icon from './Icon.astro';
   </Fragment>
 
   <!-- v———————————————————————————————————— This is the tallest panel -->
-  <Fragment slot="panel-2-tallest">
-    <h2>Software Engineering Fellow | General Assembly | June 2020 - September 2020</h2>
+  <Fragment slot="panel-2">
+    <h2 class="experience-role">Software Engineering Fellow | General Assembly | June 2020 - September 2020</h2>
     <ul>
       <li>Graduated from a 500-hour, full-time, and full-stack immersive program by learning to code and build 3 full-stack web applications that utilize an MVC framework, SQL databases, and RESTful APIs in less than 4 months.</li>
       <li>Collaborated with classmates on nightly homework assignments and daily labs; received positive feedback from instructors and peers for leadership and mentorship.</li>
@@ -35,7 +35,7 @@ import Icon from './Icon.astro';
   </Fragment>
 
   <Fragment slot="panel-3">
-    <h2>Artist / Project Manager | EQT, LLC | September 2018 - February 2020</h2>
+    <h2 class="experience-role">Artist / Project Manager | EQT, LLC | September 2018 - February 2020</h2>
     <ul>
       <li>Contributed to $500,000 in gross revenue for artists in 2019 by supporting the development of the artists' careers and guiding the management of the artists' touring, merchandise, and other sales channels.</li>
       <li>Reviewed and revised marketing and recording budgets for up to $100k in funds, contributing to a client peak position of #104 on the US Billboard 200 and #2 on the Heatseekers Album Chart.</li>
@@ -47,8 +47,19 @@ import Icon from './Icon.astro';
 </Tabs>
 
 <div class="cta">
-  <CallToAction href="/work/" specialStyle={true}>
+  <CallToAction href="https://www.dropbox.com/s/ik0z4bo7xbo5wgt/JORDAN%20CHUDE%20WILLIAMS.pdf?dl=0" specialStyle={true}>
     View Resumé
     <Icon icon="arrow-right" size="1.2em" />
   </CallToAction>
 </div>
+
+<style>
+  .experience-title {
+    margin-bottom: -9%;
+  }
+
+  .experience-role {
+    font-size: 15px;
+    font-style: italic;
+  }
+</style>

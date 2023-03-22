@@ -176,6 +176,19 @@ h5 {
 	font-size: var(--text-xl);
 }
 
+._tab_1bswf_1 {
+    margin-right: 30px;
+	font-weight: bold;
+}
+
+._tab_1bswf_1:hover {
+    text-decoration: underline;
+}
+
+.tab {
+	margin-bottom: 5%;
+}
+
 /* Utilities */
 
 .sr-only {
