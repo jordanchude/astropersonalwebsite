@@ -1,7 +1,7 @@
 ---
 title: Employee To-Dos
 publishDate: 2019-10-02 00:00:00
-img: /assets/cinefavorites.png
+img: /assets/employee-to-dos.png
 img_alt: Screenshot of app to with an interface to add employees to a list with their name, title, and photo.
 description: |
   A full CRUD, full-stack to-do application, built with HTML, CSS, and Javascript that utilizes a MongoDB API to store and update to-dos.
@@ -16,12 +16,10 @@ tags:
 **Frontend Code**: https://github.com/jordanchude/to-do-list-frontend <br>
 **Backend Code**: https://github.com/jordanchude/to-do-list-backend
 
-As a final project for my coding boot camp, I created a movie database called 'Cinefavorites'. This project was a culmination of all the skills and knowledge I have gained throughout the course, and it was exciting to see all of my hard work come to fruition.
+For my Unit 2 project in bootcamp, I designed and developed a to-do list tracker for a company and its employees. The project was divided into two parts: the frontend and the backend.
 
-Cinefavorites is a web application that allows users to create a login and add their favorite movies to a list of films. Users can add a title, director, description, and image to each movie. After adding a movie, the dashboard displays the image and title of the film. Once the user clicks on the film, they can see the image, title, and movie description on a separate page. On the separate page, they can add platforms to stream and/or download the movie.
+The frontend consisted of a responsive navigation bar, a static header/jumbotron, a section that displays each employee's photo, name, and to-dos, and a footer with a copyright notice. Users could scroll down to view each added employee and their corresponding to-do list to stay updated on any changes. The form under the header/jumbotron enabled users to add an employee card with their name, title, and photo for the top of their to-do list. After creating the employee, a link on the employee card could be used to add a to-do item. Users could press an edit button on each created card to edit the name, photo, and title of the specified employee, or press a delete button on each created card to remove a card when an employee is terminated.
 
-Cinefavorites was built using Django as the backend and Vue.js as the frontend. For the database, I used PostgreSQL, and the deployed version is hosted on Heroku. I implemented user authentication using JWT (JSON Web Tokens) to create a secure login system. I followed a strict project schedule to ensure I met all my deadlines. I started by creating a project description and wireframes. I then created a working REST API and began working on the core application structure (HTML, CSS, etc.). After that, I worked on the MVP and bug fixes before completing the final touches and presenting my project.
+The backend consisted of a server and a database to hold employee and to-do list data. Functionality to add, remove, and update employee cards in the database, as well as to add and remove employee to-do lists in the database, was implemented. The backend server automatically updated and served data to match the user frontend. The app was deployed to Heroku.
 
-Throughout the development process, I encountered several challenges. One of the most significant challenges was implementing user authentication using JWT. However, after researching and learning more about JWT, I overcame this challenge and created a secure login system.
-
-While I am proud of my work on Cinefavorites, there is always room for improvement. In the future, I would like to add additional features, such as a rating system for movies and the ability for users to leave reviews. I would also like to improve the website's design and make it more visually appealing. Overall, creating Cinefavorites was an incredible experience. It allowed me to showcase my skills and knowledge while gaining new insights and knowledge. I am excited to continue working on this project and improving it.
+The project was created using HTML, CSS, JavaScript, Bootstrap, jQuery, Express, Mongoose, Dotenv, Morgan, and Nodemon. Various user stories and Google Sheets were incorporated to ensure that the project met the needs of the target audience. Overall, this project was a great opportunity for me to create a functional and aesthetically pleasing web application while learning important new programming concepts, such as database design and server configuration.
