@@ -34,7 +34,7 @@ const {
 		}
 		return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 	};
-	const isDark = getThemePreference() === 'light';
+	const isDark = false // getThemePreference() === 'light';
 	document.documentElement.classList[isDark ? 'add' : 'remove']('theme-dark');
 
 	if (typeof localStorage !== 'undefined') {
