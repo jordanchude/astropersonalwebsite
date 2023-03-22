@@ -5,7 +5,7 @@ import Icon from './Icon.astro';
 ---
 <h2 class="experience-title">Where I've Worked</h2>
 
-<Tabs class="tab">
+<Tabs>
   <Fragment slot="tab-1">Twitch</Fragment>
   <Fragment slot="tab-2">General Assembly</Fragment>
   <Fragment slot="tab-3">EQT</Fragment>
@@ -67,6 +67,7 @@ import Icon from './Icon.astro';
     padding: 1rem;
     background-color: teal;
     border: 1px solid cyan;
+    border-radius: 20px;
   }
 
   :global(.tab:hover) {
@@ -76,7 +77,7 @@ import Icon from './Icon.astro';
 
   :global(.tab-selector:checked ~ .tab) {
     color: black;
-    /* background: turquoise; */
+    background: turquoise;
   }
 
   .panel {
