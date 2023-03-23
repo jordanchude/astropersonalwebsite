@@ -58,6 +58,20 @@ const { href, specialStyle } = Astro.props;
 		background-color: hsla(var(--gray-999-basis), 0.3);
 	}
 
+	a::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		transition: background-color var(--theme-transition);
+		mix-blend-mode: overlay;
+	}
+
+	a:focus::after,
+	a:hover::after {
+		background-color: hsla(var(--gray-999-basis), 0.3);
+	}
+
 	@media (min-width: 50em) {
 		a {
 			padding: 1.125rem 2.5rem;
