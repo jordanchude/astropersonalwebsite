@@ -234,8 +234,14 @@ h5 {
 	gap: 12rem;
 }
 
-p {
-	width: fit-content;
+@media (max-width: 900px) {
+	.wrapper {
+		padding-inline: 1rem; /* Adjust the padding on mobile devices */
+	}
+
+	.stack {
+		display: block; /* Change the display property on mobile devices */
+	}
 }
 
 @media (min-width: 50em) {
