@@ -42,7 +42,7 @@ const projects = (await getCollection('work'))
 					</div>
 				</Hero>
 
-				<img
+				<img class="hero-image"
 					alt="Jordan Chude Williams smiling in a black sweater with a purple background"
 					width="480"
 					height="620"
@@ -54,7 +54,7 @@ const projects = (await getCollection('work'))
 			
 		</div>
 
-		<main class="wrapper stack gap-0 lg:gap-48">
+		<main class="wrapper stack gap-0 lg:gap-48 experience-main">
 			<Experience />
 		</main>
 		
@@ -131,6 +131,16 @@ const projects = (await getCollection('work'))
 		object-position: top;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
+	}
+
+	@media (max-width: 900px) {
+		.hero-image {
+			margin-bottom: 10px;
+		}
+
+		.experience-main {
+			margin-top: 25px;
+		}
 	}
 
 	@media (min-width: 50em) {

@@ -100,7 +100,16 @@ import Icon from './Icon.astro';
     font-family: var(--font-brand);
   }
 
+  @media (max-width: 900px) {
+      :global(.tab-1, .tab-2) {
+      margin-right: 1%;
+    }
+    
+    .experience-title {
+      margin-bottom: -10px;
+    }
+  }
+
 
   
 </style>
-
