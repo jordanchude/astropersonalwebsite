@@ -7,8 +7,8 @@ interface Props {
 }
 
 const {
-	title = 'Jordan Chude Williams: Personal Site',
-	description = 'The personal site of Jordan Chude Williams',
+	title = 'Jordan Williams: Personal Site',
+	description = 'The personal site of Jordan Williams',
 } = Astro.props;
 ---
 
@@ -34,14 +34,14 @@ const {
 		}
 		return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 	};
-	const isDark = false // getThemePreference() === 'light';
+	const isDark = getThemePreference() === 'dark';
 	document.documentElement.classList[isDark ? 'add' : 'remove']('theme-dark');
 
 	if (typeof localStorage !== 'undefined') {
 		// Watch the document element and persist user preference when it changes.
 		const observer = new MutationObserver(() => {
-			const isDark = document.documentElement.classList.contains('theme-light');
-			localStorage.setItem('theme', 'light');
+			const isDark = document.documentElement.classList.contains('theme-dark');
+			localStorage.setItem('theme', isDark ? 'dark' : 'light');
 		});
 		observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
 	}
