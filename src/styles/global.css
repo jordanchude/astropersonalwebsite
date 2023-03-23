@@ -234,6 +234,21 @@ h5 {
 	gap: 12rem;
 }
 
+.tab-transition::after {
+	content: '';
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+	transition: background-color var(--theme-transition);
+	mix-blend-mode: overlay;
+}
+
+.tab-transition:focus::after,
+.tab-transition:hover::after,
+.tab-transition:active::after {
+	background-color: hsla(var(--gray-999-basis), 0.3);
+}
+
 @media (max-width: 900px) {
 	.wrapper {
 		padding-inline: 1rem; /* Adjust the padding on mobile devices */

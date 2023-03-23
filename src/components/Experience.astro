@@ -71,11 +71,12 @@ import Icon from './Icon.astro';
 		gap: 0.5rem;
 		color: var(--accent-text-over);
 		border: 1px solid var(--accent-regular);
-		background-color: var(--accent-regular);
 		border-radius: 999rem;
 		font-size: var(--text-md);
 		line-height: 1.35;
 		white-space: nowrap;
+    background: var(--gradient-accent-orange);
+		box-shadow: var(--shadow-md);
   }
 
   :global(.tab-1, .tab-2) {
@@ -83,8 +84,7 @@ import Icon from './Icon.astro';
   }
   
   :global(.tab:hover) {
-    color: white;
-    background-color: var(--accent-regular);
+    color: var(--bs-link-hover-color);
     border-radius: 0;
   }
 
@@ -92,6 +92,7 @@ import Icon from './Icon.astro';
     color: white;
     border-radius: 0;
   }
+
 
   .panel {
     padding: 1rem;
