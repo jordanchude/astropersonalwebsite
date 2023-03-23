@@ -28,7 +28,7 @@ const { href, specialStyle } = Astro.props;
 	}
 
 	.special-button {
-		position: static; /* Reset the position property */
+		position: relative; /* Reset the position property */
 		display: inline-block; /* Reset the display property */
 		margin-bottom: 10%;
 		font-size: 17px;
@@ -44,7 +44,7 @@ const { href, specialStyle } = Astro.props;
 	}
 
 	/* Overlay for hover effects. */
-	a::after {
+	.special-button::after {
 		content: '';
 		position: absolute;
 		inset: 0;
@@ -53,8 +53,8 @@ const { href, specialStyle } = Astro.props;
 		mix-blend-mode: overlay;
 	}
 
-	a:focus::after,
-	a:hover::after {
+	.special-button:focus::after,
+	.special-button:hover::after {
 		background-color: hsla(var(--gray-999-basis), 0.3);
 	}
 
