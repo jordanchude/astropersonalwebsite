@@ -125,6 +125,7 @@ html,
 body {
 	height: 100%;
 	overflow-x: hidden;
+	width: fit-content;
 }
 
 body {
@@ -182,18 +183,6 @@ h5 {
 	font-size: var(--text-xl);
 }
 
-/* ._tab_1bswf_1 {
-    margin-right: 30px;
-	font-weight: bold;
-}
-
-._tab_1bswf_1:hover {
-    text-decoration: underline;
-}
-
-.tab {
-	margin-bottom: 5%;
-} */
 
 /* Utilities */
 
@@ -244,6 +233,10 @@ h5 {
 }
 .gap-48 {
 	gap: 12rem;
+}
+
+p {
+	width: fit-content;
 }
 
 @media (min-width: 50em) {
