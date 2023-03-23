@@ -1,6 +1,6 @@
 ---
 title: Tello
-publishDate: 2019-10-02 00:00:00
+publishDate: 2022-10-02 00:00:00
 img: /assets/tello.png
 img_alt: Blue homepage with embedded video of using drag and drop trello clone feature
 description: |

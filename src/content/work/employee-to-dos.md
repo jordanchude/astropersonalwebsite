@@ -1,6 +1,6 @@
 ---
 title: Employee To-Dos
-publishDate: 2019-10-02 00:00:00
+publishDate: 2018-10-02 00:00:00
 img: /assets/employee-to-dos.png
 img_alt: Screenshot of app to with an interface to add employees to a list with their name, title, and photo.
 description: |

@@ -1,6 +1,6 @@
 ---
 title: Anythink
-publishDate: 2020-03-02 00:00:00
+publishDate: 2023-03-02 00:00:00
 img: /assets/anythink.png
 img_alt: A home page with a search box and "Anythink" company logo above it
 description: |
