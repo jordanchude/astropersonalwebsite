@@ -11,8 +11,8 @@ tags:
   - Dev
 ---
 
-**Website**: https://telloapp.netlify.app/
-**Frontend Code**: https://github.com/jordanchude/trello-frontend
+**Website**: https://telloapp.netlify.app/ <br>
+**Frontend Code**: https://github.com/jordanchude/trello-frontend <br>
 **Backend Code**: https://github.com/jordanchude/trello-clone
 
 During my time in a coding bootcamp, I had the opportunity to contribute to a team-built, full-stack project that involved creating a customized Trello clone. As a full CRUD application, it allowed users to create, read, update, and delete lists and cards within boards. The project was built with HTML, CSS, JavaScript (Vue.js), and Ruby on Rails. One of the key features of the project was its use of JWT authentication to manage user accounts.

@@ -11,6 +11,9 @@ tags:
   - Frontend
 ---
 
+**Website**: https://master--chude.netlify.app/ <br>
+**Code**: https://github.com/jordanchude/personal-portfolio
+
 The second version of my personal portfolio website using Bootstrap, a popular CSS framework for building responsive, mobile-first websites. The website includes a navbar with links to various sections of the website and links to social media profiles. The hero section includes a background image and a call to action button. The about section includes a brief bio and a list of my skills, tools, and frameworks. The work history section includes a list of my past work and projects. The website is designed to be responsive and optimized for all screen sizes.
 
 I used Vue.js, a JavaScript framework for building user interfaces and single-page applications, to create the dynamic elements of the website, such as the navbar and the hero section. I also used Font Awesome, a popular icon set and toolkit, to enhance the website's design.
