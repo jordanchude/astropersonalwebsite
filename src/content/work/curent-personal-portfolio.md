@@ -8,7 +8,7 @@ description: |
 tags:
   - Design
   - Dev
-  - Frontend
+  - Astro
 ---
 
 **Website**: https://chude.dev <br>
