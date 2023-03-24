@@ -14,9 +14,9 @@ tags:
 **Website**: https://chude.dev <br>
 **Code**: https://github.com/jordanchude/astropersonalwebsite
 
-As a full-stack engineer with a passion for solving problems and a natural curiosity, I am excited to showcase my work on my personal Astro website. The website includes various components: a skills section, work experience, and call-to-action buttons. This was my first time using Astro, and I loved the experience.
+As a full-stack engineer with a passion for solving problems and a natural curiosity, I am excited to showcase my work on my personal [Astro](https://astro.build/) website. The website includes various components: a skills section, work experience, and call-to-action buttons. This was my first time using Astro, and I loved the experience.
 
-One of the website's key features is the use of Astro Tabs to present my work experience. Each tab includes information about my role, responsibilities, and accomplishments in a previous position. It was one of the more difficult features to implement, but I took my time with the CSS and library I used to accomplish my vision.
+One of the website's key features is the use of [Astro Tabs](https://code.juliancataldo.com/component/astro-tabs/#doc) to present my work experience. Each tab includes information about my role, responsibilities, and accomplishments in a previous position. It was one of the more difficult features to implement, but I took my time with the CSS and library I used to accomplish my vision.
 
 The website's design is clean and modern, focusing on readability and user experience. Using icons and graphics, such as icons in the hero, adds visual interest to the site without overwhelming the user.
 
