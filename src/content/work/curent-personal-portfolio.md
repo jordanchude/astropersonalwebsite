@@ -4,7 +4,7 @@ publishDate: 2024-03-02 00:00:00
 img: /assets/current-personal-portfolio.png
 img_alt: A screenshot the hero page with Jordan on the right.
 description: |
-  A personal portfolio website built using Bootstrap, Vue.js, and Font Awesome that is designed to be responsive and optimized for all screen sizes.
+  This is a personal website of a full-stack engineer, showcasing their skills, work experience, and call-to-action buttons. The website is built using Astro, a static site builder that uses modern web development technologies.
 tags:
   - Design
   - Dev
@@ -22,4 +22,4 @@ The website's design is clean and modern, focusing on readability and user exper
 
 In addition to the work experience section, the website includes a call-to-action button that encourages users to view my resume. The button is designed to stand out and is displayed prominently under my experience to encourage engagement.
 
-Overall, I am proud of my work on my Astro website and how it showcases my skills and experience. I look forward to continuing to refine the site and add new features as my career progresses.
+I am proud of my work on my website. I look forward to continuing to refine the site and add new features as my career progresses.
