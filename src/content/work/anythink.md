@@ -8,6 +8,7 @@ description: |
 tags:
   - Design
   - Dev
+  - Full Stack
 ---
 
 Anythink Market is built with React, Node.js, MongoDB, and Elasticsearch. It has features like user authentication, product listing, image uploading, and search functionality. All contributions were organized in the forms of ['quests'](https://www.trywilco.com/catalog) from [Wilco](https://www.trywilco.com/). 

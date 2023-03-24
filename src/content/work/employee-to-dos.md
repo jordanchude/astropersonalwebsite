@@ -7,8 +7,7 @@ description: |
   A full CRUD, full-stack to-do application, built with HTML, CSS, and Javascript that utilizes a MongoDB API to store and update to-dos.
 tags:
   - Design
-  - Frontend
-  - Backend
+  - Full Stack
   - Dev
 ---
 

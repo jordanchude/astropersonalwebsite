@@ -9,6 +9,7 @@ tags:
   - Design
   - Project Management
   - Dev
+  - Full Stack
 ---
 
 **Website**: https://telloapp.netlify.app/ <br>

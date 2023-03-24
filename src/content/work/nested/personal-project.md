@@ -9,6 +9,7 @@ tags:
   - Design
   - Dev
   - Personal Branding
+  - Frontend
 ---
 
 **Website:** https://jordanchude.netlify.app/ <br>

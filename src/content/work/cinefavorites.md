@@ -7,8 +7,7 @@ description: |
   A full CRUD, full-stack movie database, built with HTML, CSS, Javascript, and Python that utilizes JWT authentication for user management.
 tags:
   - Design
-  - Frontend
-  - Backend
+  - Full Stack
   - Dev
 ---
 
