@@ -1,6 +1,6 @@
 ---
 title: Record Collection
-publishDate: 2020-12-01 00:00:00
+publishDate: 2021-12-01 00:00:00
 img: /assets/record-collection.jpg
 img_alt: A horizontally stacked record collection
 description: |
