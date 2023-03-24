@@ -4,7 +4,7 @@ publishDate: 2024-03-02 00:00:00
 img: /assets/current-personal-portfolio.png
 img_alt: A screenshot the hero page with Jordan on the right.
 description: |
-  This is a personal website of a full-stack engineer, showcasing their skills, work experience, and call-to-action buttons. The website is built using Astro, a static site builder that uses modern web development technologies.
+  My current website is built using Astro, a static site builder that uses modern web development technologies.
 tags:
   - Design
   - Dev
