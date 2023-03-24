@@ -15,9 +15,6 @@ This is a personal website of a Jordan Williams, showcasing his skills, work exp
 - HTML5
 - CSS
 - JavaScript
-- React.js
-- Ruby on Rails
-- PostgreSQL
 
 ## Usage
 
