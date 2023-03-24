@@ -12,7 +12,7 @@ tags:
 ---
 
 **Website**: https://chude.dev <br>
-**Code**: https://github.com/jordanchude/astropersonalwebsite
+**Code**: https://tinyurl.com/astropersonalwebsite
 
 As a full-stack engineer with a passion for solving problems and a natural curiosity, I am excited to showcase my work on my personal [Astro](https://astro.build/) website. The website includes various components: a skills section, work experience, and call-to-action buttons. This was my first time using Astro, and I loved the experience.
 
