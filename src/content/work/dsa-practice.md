@@ -1,6 +1,6 @@
 ---
 title: Algorithms & Datastructures Practice
-publishDate: 2022-10-02 00:00:00
+publishDate: 2014-10-02 00:00:00
 img: /assets/code-wallpaper.jpg
 img_alt: Computer wallpaper with various code on it
 description: |

@@ -1,6 +1,6 @@
 ---
 title: First Personal Portfolio
-publishDate: 2020-03-04 00:00:00
+publishDate: 2014-03-04 00:00:00
 img: /assets/personal-portfolio.png
 img_alt: A screenshot of an early personal portfolio website built with HTML, CSS, and JavaScript.
 description: |

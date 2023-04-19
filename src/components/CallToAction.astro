@@ -1,13 +1,16 @@
 ---
+import { preprocess } from 'astro/zod';
+
 interface Props {
 	href: string;
 	specialStyle?: boolean;
+	openInNewTab?: boolean;
 }
 
-const { href, specialStyle } = Astro.props;
+const { href, specialStyle, openInNewTab } = Astro.props;
 ---
 
-<a href={href} class={`your-button${specialStyle ? ' special-button' : ''}`}><slot /></a>
+<a href={href} target={openInNewTab ? "_blank" : ""} class={`your-button${specialStyle ? ' special-button' : ''}`}><slot /></a>
 
 <style>
 	a {

@@ -1,6 +1,6 @@
 ---
 title: Cinefavorites
-publishDate: 2019-10-02 00:00:00
+publishDate: 2018-10-02 00:00:00
 img: /assets/cinefavorites.png
 img_alt: Screenshot of app to scroll through movies.
 description: |
