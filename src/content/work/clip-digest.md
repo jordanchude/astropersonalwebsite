@@ -1,7 +1,7 @@
 ---
 title: Clip Digest
 publishDate: 2023-11-02 00:00:00
-img: /assets/clip-digest.jgp
+img: /assets/clip-digest.jpg
 img_alt: A room filled with gaming chairs, monitors, and a computer
 description: |
   Developed 'Clips Digest' for Twitch's non-gaming creator managers using React.js.
